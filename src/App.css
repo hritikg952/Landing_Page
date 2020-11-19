@@ -1,10 +1,31 @@
 .App {
   text-align: center;
+  font-family: "roboto";
+  display: flex;
+  flex-direction: column;
+  
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.globalButton {
+  background-color: #1f231f;
+  border-color: #fff;
+  color: #fff;
+  border-style: solid;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px 40px;
+  border-radius: 40px;
+  transition: 0.4s;
+}
+.globalButton:hover {
+  background-color: #fff;
+  color: #1f231f;
+  border-color: #1f231f;
 }
 
 @media (prefers-reduced-motion: no-preference) {

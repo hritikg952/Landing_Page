@@ -1,0 +1,7 @@
+.stats-container {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #0B0B0B;
+}

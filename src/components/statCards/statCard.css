@@ -1,0 +1,21 @@
+.statCard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 200px;
+  margin: 20px;
+}
+.statCard-container h4{
+    margin-top: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.statCard-container .countUp{
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: 500;
+    color:#fff
+}

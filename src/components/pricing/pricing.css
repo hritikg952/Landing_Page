@@ -1,0 +1,16 @@
+.pricing-container {
+  padding: 100px 75px;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f5f5f8;
+}
+
+.pricing-container .pricing-card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}

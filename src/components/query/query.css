@@ -1,0 +1,41 @@
+.query-container {
+  padding: 100px 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.query-container h3{
+    letter-spacing: 2px;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.query-container p{
+    font-size: 1.3rem;
+    width: 600px;
+    font-weight: 300;
+}
+
+.query-form {
+  position: relative;
+  margin: 30px 0;
+}
+
+.query-form input {
+  width: 500px;
+  height: 100px;
+  padding: 20px 10px;
+  font-size: 1.5rem;
+  border-radius: 50px;
+  border: #676767 solid 1px;
+  outline: none;
+}
+
+.query-form button {
+  position: absolute;
+  right: 5px;
+  top: 13px
+}

@@ -1,0 +1,9 @@
+.progressCard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
